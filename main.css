@@ -1,0 +1,351 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  font-family: sans-serif;
+  font-size: 16px;
+  height: 1000px;
+}
+
+.container {
+  width: 100%;
+  background-color: #fff;
+  margin: 0px auto;
+  padding-top: 10px;
+}
+
+.clear {
+  clear: left;
+}
+
+.header img {
+  width: 150px;
+  height: auto;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+
+.profile {
+  float: right;
+  margin-top: -2px;
+  margin-right: 25px;
+}
+
+.profile img {
+  width: 50px;
+  margin-left: -12px;
+}
+
+.prof-text {
+  padding-top: 20px;
+  float: right;
+}
+
+.pr-dua {
+  float: right;
+  font-size: 14px;
+  margin-top: 2px;
+}
+
+.banner {
+  height: 350px;
+  background-image: url(img/bg2.jpg);
+  background-size: cover;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.container-satu {
+  margin-top: 100px;
+  /* background-color: aqua; */
+}
+
+.cards-satu {
+  height: auto;
+  /* background-color: blue; */
+  margin-top: 10px;
+}
+
+.header-content h3 {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.container-jogja {
+  width: 380px;
+  height: auto;
+  /* background-color: salmon; */
+  float: left;
+  margin-right: 18px;
+  margin-left: 235px;
+  margin-top: 15px;
+}
+
+.jogja img {
+  width: 380px;
+  height: auto;
+}
+
+.jogja img:hover {
+  opacity: 90%;
+}
+
+.container-smrg {
+  width: 380px;
+  height: auto;
+  /* background-color: blanchedalmond; */
+  float: left;
+  margin-top: 15px;
+}
+
+.smrg img {
+  width: 380px;
+  height: auto;
+}
+
+.smrg img:hover {
+  opacity: 90%;
+}
+
+.clear-dua {
+  clear: left;
+}
+
+.cards-dua {
+  height: 350px;
+  /* background-color: violet; */
+  margin-top: 10px;
+}
+
+.container-sby {
+  width: 380px;
+  height: auto;
+  /* background-color: salmon; */
+  float: left;
+  margin-right: 18px;
+  margin-left: 235px;
+}
+
+.sby img {
+  width: 380px;
+  height: auto;
+}
+
+.sby img:hover {
+  opacity: 90%;
+}
+
+.container-mlg {
+  width: 380px;
+  height: auto;
+  /* background-color: aqua; */
+  float: left;
+  margin-right: 18px;
+}
+
+.mlg img {
+  width: 380px;
+  height: auto;
+}
+
+.mlg img:hover {
+  opacity: 90%;
+}
+
+.clear-tiga {
+  clear: left;
+}
+
+.footer {
+  margin-top: 180px;
+  background-color: #333;
+  padding: 15px;
+}
+
+.footer .copy {
+  font-size: 12px;
+  color: #eaeaea;
+  text-align: center;
+}
+
+/* Jogja */
+.header ul {
+  margin-top: -3px;
+}
+
+.banner-dua {
+  height: 420px;
+  background-image: url(img/cabangjogja2.jpg);
+  background-size: cover;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.container-content {
+  width: 900px;
+  height: 500px;
+  /* background-color: aqua; */
+  margin: 10px auto;
+}
+
+.total {
+  width: 850px;
+  height: 80px;
+  /* background-color: salmon; */
+  margin: 0 auto;
+}
+
+.total img {
+  width: 180px;
+  margin: 10px 350px 10px;
+}
+
+.text-data h2 {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Poppins";
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.deluxe {
+  margin-top: -20px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: saddlebrown; */
+  width: 850px;
+  height: 180px;
+}
+
+.gambar img {
+  margin-top: 15px;
+  margin-left: 180px;
+  width: 280px;
+  float: left;
+  margin-right: 20px;
+}
+
+.text h3 {
+  padding-top: 42px;
+  margin-top: 40px;
+}
+
+.text h4 {
+  margin-top: 6px;
+  color: salmon;
+}
+
+.text .p-satu {
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.p-dua {
+  margin-top: 5px;
+  font-size: 13px;
+}
+
+.button img {
+  width: 180px;
+  height: auto;
+  margin-top: 50px;
+  margin-left: 365px;
+}
+
+.superrior {
+  width: 850px;
+  height: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -40px;
+  /* background-color: blue; */
+}
+
+/* Semarang */
+.banner-tiga {
+  height: 400px;
+  background-image: url(img/cabangsmrg3.png);
+  background-size: cover;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+/* Malang */
+.banner-empat {
+  height: 400px;
+  background-image: url(img/cabangmlg.png);
+  background-size: cover;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+/* Surabaya */
+.banner-lima {
+  height: 400px;
+  background-image: url(img/cabangsby.png);
+  background-size: cover;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+/* Data Jogja Tabel */
+.container-table {
+  width: 1000px;
+  height: 400px;
+  margin-left: -38px;
+  margin-top: 80px;
+}
+
+.text-data {
+  margin-bottom: -15px;
+}
+
+.data {
+  text-align: center;
+  margin: 50px auto;
+  float: center;
+  border-collapse: collapse;
+  font-family: poppins;
+  font-size: 14px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+th {
+  background-color: salmon;
+  color: #fff;
+  padding: 6px;
+}
+
+td {
+  background-color: #fff;
+}
+
+.data td,
+th {
+  padding: 10px;
+}
+
+.button-kembali img {
+  width: 180px;
+  margin-top: 10px;
+  margin-left: 390px;
+}
+
+.banner-tiga-sby {
+  height: 380px;
+  background-image: url(img/cabangsby.png);
+  background-size: cover;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.banner-tiga-mlg {
+  height: 380px;
+  background-image: url(img/cabangmlg.png);
+  background-size: cover;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
